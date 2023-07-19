@@ -1,0 +1,10 @@
+{
+  "namespace": "inference.avro",
+  "type": "record",
+  "name": "Inference",
+  "fields": [
+    { "name": "g__product_code", "type": "long" },
+    { "name": "rec__product_code", "type": "long" },
+    { "name": "score", "type": "double" }
+  ]
+}
